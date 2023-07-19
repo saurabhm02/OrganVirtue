@@ -1,0 +1,16 @@
+.formbg{
+    background-image: url('https://achonaonline.com/wp-content/uploads/2018/08/Screen-Shot-2018-08-27-at-11.16.58-PM.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+ /* background-color: #00000080;; */
+}
