@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 app.use(cors())
-const port = 8000;
+const port = process.env.port || 8000;
 connectToMongoose();
 app.use(express.json());
 app.use('/api/user',require('./routes/user'));
